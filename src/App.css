@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+
 #root {
     max-width: 1280px;
     margin: 0 auto;
@@ -17,4 +20,68 @@ section {
 
 img {
     max-width: 100%;
+}
+
+.menu_dishes {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.section_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_li {
+    padding: 20px;
+}
+
+.menu_li:hover {
+    background-color: #d69158;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+.logo_header {
+    height: 150px;
+}
+
+.photo_restorant {
+    width: 100%;
+}
+
+.pizza_list {
+    display: flex;
+    gap: 20px;
+}
+
+.products_list {
+    display: flex;
+}
+
+.product_img {
+    width: 50%;
+}
+
+.main_title {
+ font-family: "BBH Bartle", sans-serif;
+    font-weight: 200px;
+    
+}
+
+.welcome_title {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.welcome_text {
+    font-family: "Open Sans", sans-serif;
 }
