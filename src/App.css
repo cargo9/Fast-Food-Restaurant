@@ -39,6 +39,7 @@ img {
 
 .menu_li {
     padding: 20px;
+    /* margin: 1px; */
 }
 
 .menu_li:hover {
