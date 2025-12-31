@@ -40,7 +40,8 @@ img {
 .menu_li {
     padding: 20px;
     /* margin: 1px; */
-    /* padding: auto; */
+    /* padding: auto;
+    width: 100000px; */
 }
 
 .menu_li:hover {
