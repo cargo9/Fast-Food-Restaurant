@@ -40,6 +40,7 @@ img {
 .menu_li {
     padding: 20px;
     /* margin: 1px; */
+    /* padding: auto; */
 }
 
 .menu_li:hover {
