@@ -110,3 +110,30 @@ img {
     background-color: #d69158;
     cursor: pointer;
 }
+
+.burger_card {
+    width: 500px;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.burger_btn {
+    background-color: rgb(131, 17, 17);
+    color: #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.burger_btn:hover {
+    background-color: #d69158;
+    cursor: pointer;
+}
+
+.burger_list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

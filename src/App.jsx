@@ -10,6 +10,15 @@ function App() {
   const productPrice = 10.99;
   const pricePhiladelph = 7;
 
+  const burgerPhoto = "https://www.realsimple.com/thmb/z3cQCYXTyDQS9ddsqqlTVE8fnpc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/real-simple-mushroom-black-bean-burgers-recipe-0c365277d4294e6db2daa3353d6ff605.jpg";
+  const burgerPrice ="5.78"
+
+  const smallBurger = "https://thumbs.dreamstime.com/b/fast-food-small-burger-white-background-simple-burger-isolated-white-background-138709798.jpg";
+  const smallBurgerPrice = "3.00";
+
+  const veganBurger ="https://drinks.ua/wp-content/uploads/2019/05/burger-vegan.jpg";
+  const veganBurgerPrice = "3.50"
+
   const menuDishes = [
     { id: "id-1", name: "Pizza" },
     { id: "id-2", name: "Burgers" },
@@ -99,8 +108,45 @@ function App() {
         </div>
       </section>
 
-      {/* Компонент Product з умовним рендером */}
       <section>
+        <div className="burger_list">
+          <div className="burger_card">
+            <img src={burgerPhoto} alt="photo" />
+            <h2>Big Burger</h2>
+            <p>Price: {burgerPrice}$</p>
+            <button className="burger_btn" type="button">
+              Add to cart
+            </button>
+          </div>
+          <div className="burger_card">
+            <img src={smallBurger} alt="photo" />
+            <h2>small Burger</h2>
+            <p>Price: {smallBurgerPrice}$</p>
+            <button className="burger_btn" type="button">
+              Add to cart
+            </button>
+          </div>
+          <div className="burger_card">
+            <img src={veganBurger} alt="photo" />
+            <h2>Vegan Burger</h2>
+            <p>Price: {veganBurgerPrice}$</p>
+            <button className="burger_btn" type="button">
+              Add to cart
+            </button>
+          </div>
+          <div className="burger_card">
+            <img src={burgerPhoto} alt="photo" />
+            <h2>Big Burger</h2>
+            <p>Price: {burgerPrice}$</p>
+            <button className="burger_btn" type="button">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Компонент Product з умовним рендером */}
+      {/* <section>
         <h2>Pizza</h2>
         <div className="products_list">
         <Product
@@ -116,7 +162,7 @@ function App() {
           quantity={15}
         />
         </div>
-      </section>
+      </section> */}
 
       {/* Mailbox з умовним рендером */}
       <section>
