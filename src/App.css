@@ -64,6 +64,8 @@ img {
 .pizza_list {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .products_list {
@@ -87,4 +89,24 @@ img {
 
 .welcome_text {
     font-family: "Open Sans", sans-serif;
+}
+
+.pizza_card {
+    width: 500px;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.pizza_btn {
+    background-color: rgb(131, 17, 17);
+    color: #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.pizza_btn:hover {
+    background-color: #d69158;
+    cursor: pointer;
 }

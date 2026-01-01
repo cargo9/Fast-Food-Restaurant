@@ -72,17 +72,29 @@ function App() {
         
         <h2>Pizza</h2>
         <div className="pizza_list">
-        <div>
+        <div className="pizza_card">
           <img src={imageUrl} alt="Pizza" width="640" />
           <h2>Pizza Peperoni</h2>
           <p>Price: {productPrice}$</p>
-          <button type="button">Add to cart</button>
+          <button className="pizza_btn" type="button">Add to cart</button>
         </div>
-        <div>
+        <div className="pizza_card">
           <img src={pizzaPhiladeph} alt="Pizza" width="640" />
           <h2>Pizza Peperoni</h2>
           <p>Price: {productPrice}$</p>
-          <button type="button">Add to cart</button>
+          <button className="pizza_btn" type="button">Add to cart</button>
+        </div>
+         <div className="pizza_card">
+          <img src={pizzaPhiladeph} alt="Pizza" width="640" />
+          <h2>Pizza Peperoni</h2>
+          <p>Price: {productPrice}$</p>
+          <button className="pizza_btn" type="button">Add to cart</button>
+        </div>
+         <div className="pizza_card">
+          <img src={pizzaPhiladeph} alt="Pizza" width="640" />
+          <h2>Pizza Peperoni</h2>
+          <p>Price: {productPrice}$</p>
+          <button className="pizza_btn" type="button">Add to cart</button>
         </div>
         </div>
       </section>
