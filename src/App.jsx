@@ -23,30 +23,30 @@ function App() {
     { id: "id-1", name: "Pizza" },
     { id: "id-2", name: "Burgers" },
     { id: "id-3", name: "Sushi" },
-    { id: "id-4", name: "frensh frise" },
+    { id: "id-4", name: "Frensh Frise" },
   ];
 
   // Компоненти
-  const Product = ({ imgUrl, name, price, quantity }) => (
-    <div>
-      <img src={imgUrl} alt={name} width="640" className="product_img"/>
-      <h2>{name}</h2>
-      <p>Price: {price}$</p>
-      <h3>Quantity: {quantity < 20 ? "Few left" : "In stock"}</h3>
-      <button type="button">Add to cart</button>
-    </div>
-  );
+  // const Product = ({ imgUrl, name, price, quantity }) => (
+  //   <div>
+  //     <img src={imgUrl} alt={name} width="640" className="product_img"/>
+  //     <h2>{name}</h2>
+  //     <p>Price: {price}$</p>
+  //     <h3>Quantity: {quantity < 20 ? "Few left" : "In stock"}</h3>
+  //     <button type="button">Add to cart</button>
+  //   </div>
+  // );
 
-  const Orders = ({order}) => (
-    <div>
-      <h1>My orders</h1>
-      {order.length > 0 ? (
-        <p>You have {order.length} order.</p>
-      ) : (
-        <p>Now no orders</p>
-      )}
-    </div>
-  );
+  // const Orders = ({order}) => (
+  //   <div>
+  //     <h1>My orders</h1>
+  //     {order.length > 0 ? (
+  //       <p>You have {order.length} order.</p>
+  //     ) : (
+  //       <p>Now no orders</p>
+  //     )}
+  //   </div>
+  // );
 
   const MenuDishes = ({ dishes }) => (
     <ul className="menu_dishes">
@@ -62,14 +62,14 @@ function App() {
     <div className="App">
 
        <section className="section_header">
-        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/restaurant-logo-design-template-80b1da7e7f6651ca3c774a5fec4089bb_screen.jpg?ts=1625576767" alt="logo" className="logo_header"/>
+        <img src="https://www.creativefabrica.com/wp-content/uploads/2019/10/11/Minimalist-Restaurant-Logo-by-Murnify-4.jpg" alt="logo" className="logo_header"/>
         <MenuDishes dishes={menuDishes} />
       </section>
 
       <h1 className="main_title">Fast Food Restaurant</h1>
 
-      <section>
-        <img src="https://vsn.ua/storage/news/ex7zjikzDUskXZbSMVBSomCIHcExa4OF3d3V6OkK.png" alt="" className="photo_restorant"/>
+      <section className="welcome_section">
+        <img src="https://static.tildacdn.com/tild3131-3862-4636-b433-666432393133/interier-restorana.jpg" alt="" className="photo_restorant"/>
         <h2 className="welcome_title">Welcome to our fast food restaurant!</h2>
           <p className="welcome_text">We serve fresh, tasty, and high-quality food made for people who love great flavor and quick service. Our menu includes juicy burgers, crispy fries, wraps, hot dogs, and refreshing drinks — all prepared with carefully selected ingredients.</p>
           <p className="welcome_text">We believe fast food can be delicious and satisfying. Whether you are grabbing a quick lunch, meeting friends, or ordering takeaway, we make sure every meal is fast, affordable, and full of taste.</p>
@@ -165,11 +165,11 @@ function App() {
       </section> */}
 
       {/* Mailbox з умовним рендером */}
-      <section>
+      {/* <section>
         <h2></h2>
-        <Orders order={["msg1", "msg2"]} />
+        <Orders order={["msg1", "msg2"]} /> */}
         {/* <Orders order={[]} /> */}
-      </section>
+      {/* </section> */}
 
       {/* Список книг з ключами */}
      

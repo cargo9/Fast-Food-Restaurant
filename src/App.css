@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 #root {
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+}
+
+body {
+    background-color:#703F0E;
 }
 
 .App {
@@ -35,10 +40,20 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color:#0E5F70;
+    
+}
+
+.welcome_section {
+    background-color: #5F6B4A
+
+;
 }
 
 .menu_li {
     padding: 20px;
+      font-family: "Oswald", sans-serif;
+      margin-right: 40px;
     /* margin: 1px; */
     /* padding: auto;
     width: 100000px; */
@@ -54,7 +69,8 @@ img {
 
 
 .logo_header {
-    height: 150px;
+    width:  350px;
+    height: 200px;
 }
 
 .photo_restorant {
@@ -84,6 +100,7 @@ img {
 
 .welcome_title {
     font-family: "Open Sans", sans-serif;
+    color: #a67d97;
 }
 
 
