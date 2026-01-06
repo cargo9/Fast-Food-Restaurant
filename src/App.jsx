@@ -3,7 +3,8 @@ import { GlobalStyles } from "./styles/GlobalStyles";
 import Header from "./components/Header/Header";
 import WelcomeSection from "./components/WelcomeSection/WelcomeSection";
 import PizzaSection from "./components/PizzaSection/PizzaSection";
-import BurgerSection from "./components/BurgerSection/BurgerSection";
+import BurgerSection from "./components/BurgerSection/BurgerSection"
+import SushiSection from "./components/SushiSection/SushiSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <WelcomeSection />
       <PizzaSection />
       <BurgerSection />
+      <SushiSection />
     </>
   );
 }
