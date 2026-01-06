@@ -19,12 +19,5 @@ export const sushiData = [
     price: 5.78,
     imageUrl: "https://sansushi.md/wp-content/uploads/2025/11/10-fd4dc0aa-6173-4113-afee-285c2c28a8aa.jpg",
     description: "Classic taste for everyone",
-  },
-  {
-    id: "sushi-4",
-    name: "Shrimp Sushi",
-    price: 6.78,
-    imageUrl: "https://mastersushi.bg/wp-content/uploads/2023/01/Skarida-Sushi-Pleven.png",
-    description: "A wonderful combination of shrimp and cheese",
   }
 ]
