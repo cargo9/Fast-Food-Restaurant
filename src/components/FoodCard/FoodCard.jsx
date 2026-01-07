@@ -20,7 +20,7 @@ const FoodCard = ({ name, price, imageUrl, description }) => {
       <CardContent>
         <CardTitle>{name}</CardTitle>
         <CardDescription>{description}</CardDescription>
-        <CardPrice>${price.toFixed(2)}</CardPrice>
+        <CardPrice>${price}</CardPrice>
         <AddButton onClick={handleAddToCart}>Add to cart</AddButton>
       </CardContent>
     </Card>

@@ -6,6 +6,7 @@ import PizzaSection from "./components/PizzaSection/PizzaSection";
 import BurgerSection from "./components/BurgerSection/BurgerSection"
 import SushiSection from "./components/SushiSection/SushiSection";
 import FrenchFriesSection from "./components/FrenchFriesSection/FrenchFriesSection";
+import DrinksSection from "./components/DrinksSection/DrinksSection";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <BurgerSection />
       <SushiSection />
       <FrenchFriesSection />
+      <DrinksSection />
       <Footer />
     </>
   );
