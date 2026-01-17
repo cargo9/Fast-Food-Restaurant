@@ -1,5 +1,5 @@
 import React from "react";
-import FoodCard from "../FoodCard/FoodCard";
+import FoodCard from "../DrinksCard/DrinksCard";
 import { drinksData } from "../../data/drinksData";
 import { Section, SectionTitle, FoodGrid } from "./DrinksSection.styled";
 

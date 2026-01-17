@@ -8,6 +8,7 @@ import SushiSection from "./components/SushiSection/SushiSection";
 import FrenchFriesSection from "./components/FrenchFriesSection/FrenchFriesSection";
 import DrinksSection from "./components/DrinksSection/DrinksSection";
 import Footer from "./components/Footer/Footer";
+import DesurtSection from "./components/Desurts/Desurts";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SushiSection />
       <FrenchFriesSection />
       <DrinksSection />
+      <DesurtSection />
       <Footer />
     </>
   );
