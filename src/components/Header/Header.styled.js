@@ -28,6 +28,12 @@ export const NavList = styled.ul`
   gap: 30px;
   margin: 0;
   padding: 0;
+  @media (max-width: 414px) {
+  display: flex;
+  flex-direction: column;
+  
+  
+  }
 `;
 
 export const NavItem = styled.li`

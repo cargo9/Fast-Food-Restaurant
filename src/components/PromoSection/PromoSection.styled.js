@@ -7,6 +7,15 @@ export const PromoContainer = styled.section`
   flex-direction: row;
   align-items: center;
   gap: 30px;
+   @media (min-width: 768px)and (max-width: 1024px) {
+  display: flex;
+  flex-direction: column;
+  
+  }
+  @media (max-width: 414px) {
+  display: flex;
+  flex-direction: column;
+  }
 `;
 
 export const PromoTitle = styled.h1`
@@ -43,4 +52,6 @@ export const PromoText = styled.p`
   color: #555;
   margin-bottom: 15px;
   text-align: justify;
+  
 `;
+
