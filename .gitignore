@@ -1,0 +1,34 @@
+# --- Системні файли ---
+.DS_Store
+Thumbs.db
+
+# --- Папки залежностей (Dependencies) ---
+node_modules/
+bower_components/
+env/
+venv/
+.env
+bin/
+obj/
+
+# --- Файли збірки (Build outputs) ---
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+
+# --- Налаштування IDE та редакторів ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Логи та тимчасові файли ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
