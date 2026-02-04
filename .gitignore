@@ -12,8 +12,8 @@ bin/
 obj/
 
 # --- Файли збірки (Build outputs) ---
-dist/
-build/
+# dist/
+# build/
 out/
 *.exe
 *.dll
