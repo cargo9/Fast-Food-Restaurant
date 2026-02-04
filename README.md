@@ -1,5 +1,7 @@
 # Fast Food Restaurant - React App
 
+<img width="1853" height="905" alt="image" src="https://github.com/user-attachments/assets/542b0162-4010-4467-8085-ffa3f4ef9b29" />
+
 ## 📁 Структура проекту
 
 ```
