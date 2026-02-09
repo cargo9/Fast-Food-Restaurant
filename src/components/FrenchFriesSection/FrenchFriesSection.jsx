@@ -1,16 +1,21 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import FoodCard from "../FoodCard/FoodCard";
 import { frenchFriesData } from "../../data/frenchFriesData";
 import { Section, SectionTitle, FoodGrid } from "./FrenchFries.styled";
+import { ViewAllButton } from "../ViewAllButton/ViewAllButton.styled";
 
 const FrenchFriesSection = () => {
+  const navigate = useNavigate();
+
   return (
-    <Section>
+    <Section id="french-fries">
       <SectionTitle> French Fries</SectionTitle>
       <FoodGrid>
-        {frenchFriesData.map(( frenchFries) => (
+        {frenchFriesData.slice(0, 3).map((frenchFries) => (
           <FoodCard
             key={frenchFries.id}
+            id={frenchFries.id}
             name={frenchFries.name}
             price={frenchFries.price}
             imageUrl={frenchFries.imageUrl}
@@ -18,8 +23,11 @@ const FrenchFriesSection = () => {
           />
         ))}
       </FoodGrid>
+      <ViewAllButton onClick={() => navigate("/french-fries")}>
+        Показати всю картоплю фрі
+      </ViewAllButton>
     </Section>
   );
 };
 
-export default  FrenchFriesSection;
+export default FrenchFriesSection;
