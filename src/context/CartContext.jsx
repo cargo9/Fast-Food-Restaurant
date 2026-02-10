@@ -10,6 +10,8 @@ export const useCart = () => {
   return context;
 };
 
+
+
 export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState(() => {
     const savedCart = localStorage.getItem("cart");
@@ -67,6 +69,37 @@ export const CartProvider = ({ children }) => {
     setCartItems([]);
   };
 
+  
+  const placeOrder = async () => {
+  if (cartItems.length === 0) return;
+
+  try {
+    const response = await fetch("http://localhost:5000/order", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        items: cartItems,
+        total: getTotalPrice(),
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Server error");
+    }
+
+    const data = await response.json();
+
+    alert(data.message); 
+    clearCart();
+  } catch (error) {
+    console.error(error);
+    alert("Не удалось отправить заказ");
+  }
+};
+
+
   const toggleCart = () => {
     setIsCartOpen(!isCartOpen);
   };
@@ -83,8 +116,9 @@ export const CartProvider = ({ children }) => {
         removeFromCart,
         updateQuantity,
         getTotalPrice,
-        getTotalItems,
+        getTotalItems,      
         clearCart,
+        placeOrder,
         isCartOpen,
         toggleCart,
         closeCart,

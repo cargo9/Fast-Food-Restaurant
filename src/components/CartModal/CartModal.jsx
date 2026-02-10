@@ -1,5 +1,6 @@
 import React from "react";
 import { useCart } from "../../context/CartContext";
+// import { useCart } from "../context/CartContext";
 import {
   ModalOverlay,
   ModalContent,
@@ -30,6 +31,7 @@ const CartModal = () => {
     updateQuantity,
     removeFromCart,
     getTotalPrice,
+    placeOrder,
     getTotalItems,
     clearCart,
   } = useCart();
@@ -38,7 +40,7 @@ const CartModal = () => {
 
   const handleOrder = () => {
     alert("Дякуємо за замовлення! Ваше замовлення прийнято.");
-    clearCart();
+    placeOrder();
     closeCart();
   };
 
