@@ -394,7 +394,7 @@ Please change the parent <Route path="${p}"> to <Route path="${p==="/"?"*":`${p}
   color: #555;
   margin-bottom: 15px;
   text-align: justify;
-`,Ry=()=>g.jsxs(g.Fragment,{children:[g.jsx(ky,{children:"About Us"}),g.jsxs(Sy,{children:[g.jsx(Cy,{src:"https://www.trggroupltd.com/wp-content/uploads/2022/03/new-our0people-banner.jpg",alt:"Restaurant Interior"}),g.jsx(Ey,{children:g.jsx(Py,{children:"Our team of chefs are professionals who combine experience, creativity and love for their work. They prepare each dish with quality ingredients, adhering to high standards of taste and presentation, so that every guest gets a real pleasure."})})]})]}),_y=k.section`
+`,Ry=()=>g.jsxs(g.Fragment,{children:[g.jsx(ky,{children:"About Us"}),g.jsxs(Sy,{children:[g.jsx(Cy,{src:"https://www.trggroupltd.com/wp-content/uploads/2022/03/new-our0people-banner.jpg",alt:"Restaurant Interior"}),g.jsx(Ey,{children:g.jsx(Py,{children:"Our team of chefs are professionals who combine experience, creativity and love for their work. They prepare each dish with quality ingredients, adhering to high standards of taste and presentation, so that every guest gets a real pleasure.???"})})]})]}),_y=k.section`
   padding: 60px 20px;
   background-color: #ffffff;
   display: flex;
