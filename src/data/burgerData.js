@@ -21,5 +21,26 @@ export const burgerData = [
     price: 3.5,
     imageUrl: "https://drinks.ua/wp-content/uploads/2019/05/burger-vegan.jpg",
     description: "Delicious plant-based burger",
-  }
+  },
+  {
+    id: "burger-4",
+    name: "Cheese Burger",
+    price: 4.5,
+    imageUrl: "https://www.shutterstock.com/image-photo/juicy-double-cheeseburger-studio-shot-600nw-2572134091.jpg",
+    description: "Classic burger with melted cheese",
+  },
+  {
+    id: "burger-5",
+    name: "BBQ Burger",
+    price: 6.0,
+    imageUrl: "https://via.placeholder.com/300x200?text=BBQ+Burger",
+    description: "Burger with BBQ sauce and crispy bacon",
+  },
+  {
+    id: "burger-6",
+    name: "Spicy Burger",
+    price: 5.5,
+    imageUrl: "https://via.placeholder.com/300x200?text=Spicy+Burger",
+    description: "Hot and spicy burger with jalapeños",
+  },
 ];

@@ -1,4 +1,5 @@
 import React from "react";
+import { useCart } from "../../context/CartContext";
 import {
   Card,
   CardImage,
@@ -9,9 +10,11 @@ import {
   AddButton,
 } from "./FoodCard.styled";
 
-const FoodCard = ({ name, price, imageUrl, description }) => {
+const FoodCard = ({ id, name, price, imageUrl, description }) => {
+  const { addToCart } = useCart();
+
   const handleAddToCart = () => {
-    console.log(`Added ${name} to cart`);
+    addToCart({ id, name, price, imageUrl, description });
   };
 
   return (

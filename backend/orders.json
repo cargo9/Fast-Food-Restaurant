@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1770751477150,
+    "items": [
+      {
+        "id": "pizza-2",
+        "name": "Pizza Margherita",
+        "price": 8.99,
+        "imageUrl": "https://www.unileverfoodsolutions.co.id/dam/global-ufs/mcos/SEA/calcmenu/recipes/ID-recipes/sacks/Margherita-Pizza/Pizza%20Margaretha%20(Recipe%20Page).jpg",
+        "description": "Traditional Italian pizza with tomato sauce, mozzarella, and basil",
+        "quantity": 2
+      }
+    ],
+    "total": 17.98,
+    "createdAt": "2026-02-10T19:24:37.150Z"
+  },
+  {
+    "id": 1770751569817,
+    "items": [
+      {
+        "id": "burger-1",
+        "name": "Big Burger",
+        "price": 5.78,
+        "imageUrl": "https://www.realsimple.com/thmb/z3cQCYXTyDQS9ddsqqlTVE8fnpc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/real-simple-mushroom-black-bean-burgers-recipe-0c365277d4294e6db2daa3353d6ff605.jpg",
+        "description": "Juicy beef burger with fresh vegetables",
+        "quantity": 1
+      },
+      {
+        "id": "burger-2",
+        "name": "Small Burger",
+        "price": 3,
+        "imageUrl": "https://thumbs.dreamstime.com/b/fast-food-small-burger-white-background-simple-burger-isolated-white-background-138709798.jpg",
+        "description": "Perfect size burger for a quick snack",
+        "quantity": 1
+      },
+      {
+        "id": "sushi-2",
+        "name": "Small Sushi",
+        "price": 4.98,
+        "imageUrl": "https://tomaxa.ua/image/cache/catalog/2021_roll/filadelfiya2021/filadelfiya_losos_a-525x350.jpg",
+        "description": "If you just want a snack",
+        "quantity": 2
+      },
+      {
+        "id": "coffee-2",
+        "name": "Cappuccino",
+        "price": 4,
+        "imageUrl": "https://via.placeholder.com/300x200?text=Cappuccino",
+        "description": "Espresso with steamed milk foam",
+        "quantity": 1
+      }
+    ],
+    "total": 22.740000000000002,
+    "createdAt": "2026-02-10T19:26:09.817Z"
+  }
+]

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
   Card,
   CardImage,
@@ -8,9 +9,11 @@ import {
   AddButton,
 } from "../FoodCard/FoodCard.styled";
 
-const DrinkCard = ({ name, imageUrl, description }) => {
-  const handleAddToCart = () => {
-    console.log(`Натиснуто кнопку!!!`);
+const DrinkCard = ({ id, name, imageUrl, description }) => {
+  const navigate = useNavigate();
+
+  const handleChooseDrink = () => {
+    navigate("/drinks");
   };
 
   return (
@@ -19,7 +22,7 @@ const DrinkCard = ({ name, imageUrl, description }) => {
       <CardContent>
         <CardTitle>{name}</CardTitle>
         <CardDescription>{description}</CardDescription>
-        <AddButton onClick={handleAddToCart}>Choose a drink</AddButton>
+        <AddButton onClick={handleChooseDrink}>Choose a drink</AddButton>
       </CardContent>
     </Card>
   );

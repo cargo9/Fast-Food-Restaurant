@@ -24,4 +24,25 @@ export const pizzaData = [
       "https://uk.ooni.com/cdn/shop/articles/FourCheese_Resized.jpg?crop=center&height=800&v=1598453116&width=800",
     description: "Delicious pizza with four types of cheese",
   },
+  {
+    id: "pizza-4",
+    name: "Hawaiian Pizza",
+    price: 10.49,
+    imageUrl: "https://via.placeholder.com/300x200?text=Hawaiian+Pizza",
+    description: "Pizza with ham and pineapple",
+  },
+  {
+    id: "pizza-5",
+    name: "Vegetarian Pizza",
+    price: 9.99,
+    imageUrl: "https://via.placeholder.com/300x200?text=Vegetarian+Pizza",
+    description: "Pizza with fresh vegetables",
+  },
+  {
+    id: "pizza-6",
+    name: "Meat Lovers Pizza",
+    price: 12.99,
+    imageUrl: "https://via.placeholder.com/300x200?text=Meat+Lovers+Pizza",
+    description: "Pizza loaded with various meats",
+  },
 ];
