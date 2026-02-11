@@ -24,7 +24,7 @@ const BurgerSection = () => {
         ))}
       </FoodGrid>
       <ViewAllButton onClick={() => navigate("/burgers")}>
-        Показати всі бургери
+        Show all burgers
       </ViewAllButton>
     </Section>
   );

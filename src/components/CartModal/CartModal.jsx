@@ -1,6 +1,5 @@
 import React from "react";
 import { useCart } from "../../context/CartContext";
-// import { useCart } from "../context/CartContext";
 import {
   ModalOverlay,
   ModalContent,
@@ -48,10 +47,10 @@ const CartModal = () => {
     <ModalOverlay onClick={closeCart}>
       <ModalContent onClick={(e) => e.stopPropagation()}>
         <CloseButton onClick={closeCart}>&times;</CloseButton>
-        <ModalTitle>Ваші замовлення</ModalTitle>
+        <ModalTitle>Your orders</ModalTitle>
 
         {cartItems.length === 0 ? (
-          <EmptyCart>Ваша корзина порожня</EmptyCart>
+          <EmptyCart>Your cart is empty.</EmptyCart>
         ) : (
           <>
             {cartItems.map((item) => (
@@ -87,14 +86,14 @@ const CartModal = () => {
 
             <TotalSection>
               <TotalRow>
-                <TotalLabel>Всього товарів:</TotalLabel>
-                <TotalLabel>{getTotalItems()} шт.</TotalLabel>
+                <TotalLabel>Total products:</TotalLabel>
+                <TotalLabel>{getTotalItems()}</TotalLabel>
               </TotalRow>
               <TotalRow>
-                <TotalLabel>Загальна вартість:</TotalLabel>
+                <TotalLabel>Total cost:</TotalLabel>
                 <TotalPrice>${getTotalPrice().toFixed(2)}</TotalPrice>
               </TotalRow>
-              <OrderButton onClick={handleOrder}>Замовити</OrderButton>
+              <OrderButton onClick={handleOrder}>Order</OrderButton>
             </TotalSection>
           </>
         )}

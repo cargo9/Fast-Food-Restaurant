@@ -24,7 +24,7 @@ const FrenchFriesSection = () => {
         ))}
       </FoodGrid>
       <ViewAllButton onClick={() => navigate("/french-fries")}>
-        Показати всю картоплю фрі
+        Show all fries
       </ViewAllButton>
     </Section>
   );

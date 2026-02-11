@@ -24,7 +24,7 @@ const SushiSection = () => {
         ))}
       </FoodGrid>
       <ViewAllButton onClick={() => navigate("/sushi")}>
-        Показати всі суші
+        Show all sushi
       </ViewAllButton>
     </Section>
   );

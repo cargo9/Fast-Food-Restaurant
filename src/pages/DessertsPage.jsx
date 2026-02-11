@@ -28,7 +28,7 @@ const FoodGrid = styled.div`
 const DessertsPage = () => {
   return (
     <PageContainer>
-      <PageTitle>Всі Десерти</PageTitle>
+      <PageTitle>All Desserts</PageTitle>
       <FoodGrid>
         {desurtData.map((dessert) => (
           <FoodCard
