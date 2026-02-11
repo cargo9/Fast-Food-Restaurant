@@ -19,7 +19,7 @@ const AboutUsSection = () => {
         />
         <ContentWrapper>
           <WelcomeText>
-           Our team of chefs are professionals who combine experience, creativity and love for their work. They prepare each dish with quality ingredients, adhering to high standards of taste and presentation, so that every guest gets a real pleasure.
+           Our team of chefs are professionals who combine experience, creativity and love for their work. They prepare each dish with quality ingredients, adhering to high standards of taste and presentation, so that every guest gets a real pleasure.???
           </WelcomeText>
         </ContentWrapper>
       </WelcomeContainer>
